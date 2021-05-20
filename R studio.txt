@@ -1,0 +1,30 @@
+course 2 week 2
+
+
+RStudio
+
+top data visualization tools include: ggplot which used for data visualizations such as histograms, bar charts, scatterplots
+
+Plotly is an R package can be used to create web-based data visualizations that can be displayed or saved as individual HTML files
+
+Lattice is a data visualization tool that is used to implement complex, multi-variable data sets. 
+
+Leaflet is very useful in creating interactive plots. 
+
+R also has its own inbuilt functions to create plots and visualization, it is mostly used using the plot function.
+Using the Plot function
+
+#simple 
+cars <- c(1,4,6,5,10)
+plot(cars , type = "o")
+title(main = "Cars vs index")
+
+#using ggplot
+#mtcars inbuilt dataset
+
+library(ggplot)
+ggplot(mtcars , aes(x = miles/gal , y = weight)) + geom_point() + ggtitle("miles per galon vs weght")
+
+#geom_point - used to specify a scatter plot
+
+# GGally extends ggplot2 by adding several functions to reduce the complexity of combining geometric objects with transformed data.

@@ -1,0 +1,111 @@
+week 1 module 3
+
+libraries in python
+
+Pandas offers data structures and tools for effective data cleaning, manipulation, and analysis. It provides tools to work with different types of data. The primary instrument of Pandas is a two-dimensional table consisting of columns and rows. This table is called a “DataFrame” and is designed to provide easy indexing so you can work with your data. 
+
+NumPy libraries are based on arrays, enabling you to apply mathematical functions to these arrays. Pandas is actually built on top of NumPy 
+
+The Matplotlib package is the most well-known library for data visualization, and it’s excellent for making graphs and plots. The graphs are also highly customizable.
+
+Seaborn makes it easy to generate plots like heat maps, time series, and violin plots.
+
+For machine learning, the Scikit-learn library contains tools for statistical modeling, including regression, classification, clustering and others. It is built on NumPy, SciPy, and matplotlib, and it’s relatively simple to get started.
+
+
+For deep learning, Keras enables you to build the standard deep learning model. Like Scikit-learn, the high-level interface enables you to build models quickly and simply. 
+
+Apache Spark data processing jobs can use Python R Scala, or SQL There are many libraries for Scala, which is predominately used in data engineering but is also sometimes used in data science. 
+
+some of the libraries that are complementary to Spark Vegas is a Scala library for statistical data visualizations. With Vegas, you can work with data files as well as Spark DataFrames. For deep learning, you can use BigDL. R has built-in functionality for machine learning and data visualization
+
+R has been the de-facto standard for open source data science but it is now being superseded by Python.
+
+
+
+API in python                   
+
+There can be a single software component at the back end, but there can be a separate API for different languages.
+
+There are also multiple volunteer-developed APIs for TensorFlow; for example Julia, MATLAB, R, Scala, and many more
+
+REST APIs are another popular type of API. They enable you to communicate using the internet, taking advantage of storage, greater data access, artificial intelligence algorithms, and many other resources.
+
+You or your code can be thought of as a client. The web service is referred to as a resource. The client finds the service through an endpoint. The client sends the request to the resource and the response to the client.
+
+HTTP methods are a way of transmitting data over the internet We tell the REST APIs what to do by sending a request. The request is usually communicated through an HTTP message.
+
+The HTTP message usually contains a JSON file, which contains instructions for the operation that we would like the service to perform. This operation is transmitted to the web service over the internet. The service performs the operation. Similarly, the web service returns a response through an HTTP message, where the information is usually returned using a JSON file. This information is transmitted back to the client. 
+
+
+
+
+DataSet
+
+The MNIST dataset is popular for data science. It contains images of handwritten digits and is commonly used to train image processing systems.
+
+Open data - Open Knowledge Foundation’s datacatalogs.org website.
+
+the Linux Foundation created the Community Data License Agreement, or CDLA. - CDLA-Sharing and CDLA-Permissive.
+
+The CDLA-Sharing license grants you permission to use and modify the data. The license stipulates that if you publish your modified version of the data you must do so under the same license terms as the original data. The CDLA-Permissive license also grants you permission to use and modify the data. However, you are not required to share changes to the data. 
+
+
+
+Sharing Enterprise Data - Data Asset eXchange
+
+it can still be difficult to discover data sets that are both high quality and have clearly defined license and usage terms. To help solve this challenge, IBM created the Data Asset eXchange, or "DAX,”
+
+DAX provides a trusted source for finding open data sets that are ready for to use in enterprise applications
+
+These data sets and which cover a wide variety of domains, including images, video, text, and audio.
+
+DAX helps developers to create end-to-end analytic and machine learning workflows and to consume open data and models with confidence under clearly defined license terms.
+
+
+
+Machine Learning Models
+
+The process by which the model learns these patterns from data is called “model training." 
+
+When the model is presented with new data, it tries to make predictions or decisions based on the patterns it has learned from past data. 
+
+Machine learning models can be divided into three basic classes: supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised learning is one of the most commonly used type of machine learning models. In supervised learning, a human provides input data and the correct outputs. The model tries to identify relationships and dependencies between the input data and the correct output.
+
+supervised learning is used to solve regression and classification problems.
+
+Regression models are used to predict a numeric, or “real," value. For example, given information about past home sales, such as geographic location, size, number of bedrooms, and sales price, you can train a model to predict the estimated sales price for other homes with similar characteristics. 
+
+Classification models are used to predict whether something belongs to a category, or “class." 
+
+In unsupervised learning, the data is not labelled by a human. The models must analyze the data and try to identify patterns and structure within the data based only on the characteristics of the data itself. 
+
+Clustering and anomaly detection are two examples of this learning style. 
+
+Clustering models are used to divide each record of a data set into one of a small number of similar groups.
+E.g - providing purchase recommendations for an e-commerce store based on past shopping behavior and the content of a shopping basket.
+
+Anomaly detection identifies outliers in a data set, such as fraudulent credit card transactions or suspicious online log-in attempts. 
+
+reinforcement learning, is loosely based on the way human beings and other organisms learn. 
+(trail and error)
+
+reinforcement learning model learns the best set of actions to take, given its current environment, in order to get the most reward over time. 
+
+Deep learning commonly used to analyze natural language, both spoken and text, as well as images, audio, and video, to forecast time series data and much more.
+
+Deep learning models are implemented using popular frameworks such as TensorFlow, PyTorch, and Keras.
+
+Deep learning frameworks typically provide a Python API, and many support other programming languages, such as C++ and JavaScript. 
+
+
+
+The Model Asset Exchange (MAX)
+
+ Due to the amount of data, labor, time, and resources required to complete the tasks, time to value can be quite long. To reduce time to value, consider taking advantage of pre-trained models for certain types of problems.
+ 
+ The Model Asset eXchange is a free open source repository for ready-to-use and customizable deep learning microservices.
+ 
+ 

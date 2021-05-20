@@ -1,0 +1,103 @@
+week 1 module 2 
+
+Data managent tools 
+
+1. Relational DB - POstgres MYsql
+2. NoSql - mongoDB , Apache CouchDB , Apache casandra
+3. file based system - Hadoop file systems or cloud file systems like cepf.
+4. Finally,Elasticsearch is mainly used for storing text data and creating a search index for
+	fast document retrival 
+
+Data Integration tools - Used to clean the data
+
+1. Apache AirFlow, originally created by AirBNB;
+2. KubeFlow, which enables you to execute data science pipelines on top of Kubernetes; 
+3. Apache Kafka, which originated from LinkedIn; 
+4. Apache Nifi, which delivers a very nice visual editor;
+5. Apache SparkSQL (which enables you to use ANSI SQL and scales up to compute clusters of 1000s of nodes), and NodeRED, which also provides a visual editor. NodeRED consumes so little in resources that it even runs on small devices like a Raspberry Pi. 
+
+
+Open source data visualization tools -
+
+1. Hue - visualization from sql queries 
+2. Kibana - data exploration and visualization web application is limited to Elasticsearch (the data provider).
+3. Apache superset - data exploration and visualization web application.
+
+
+Model deployment - API
+
+1. Seldon - Products that supports nearly all frameworks.
+2. MLeap - deploy SparkML models
+3. Tensorflow Service - uses tenderflow lib . can be deployed in Rasberry Pi as well as web browser using Tensorflow.js
+
+Model monitoring - keeping track of prediction if new data is given as input
+ 
+1. ModelDB is a machine model metadatabase where information about the models are stored and can be queried. It natively supports Apache Spark ML Pipelines and scikit-learn.
+
+
+Data asset management, also known as data governance or data lineage
+
+1. Data has to be versioned and annotated with metadata. 
+2. Apache Atlas is a tool that supports this task. 
+
+
+IDE opensource
+
+1.APache spark vs flink - batchdata vs streaming data 
+2.spyder
+3.jupyter notebook.
+
+COMMERCIAL TOOLS
+
+data management 
+
+1. Oracele
+2. Microsoftsql
+3. IBM Db2
+
+data Integration 
+
+1. Informatica
+2. IBM Infosphere
+
+
+Data visualization
+
+1. tableau
+2. Microsoft power BI
+3. IBM cognos
+
+
+Modell development
+
+1. SPSS Modeler and SAS Enterprise Miner.( SPSS software tools suite).
+2. SPSS Modeler supports the exporting of models as Predictive Model Markup Language, or PMML, which can be read by many other commercial and open software packages.
+
+Data asset management, also known as data governance or data lineage
+
+1. Data has to be versioned and annotated with metadata.
+2. Informatica Enterprise Data Governance and IBM.
+
+
+Watson Studio is a fully integrated development environment for data scientists.
+
+
+CLOUD BASED TOOLS
+
+Fully intgrated tool for data science 
+
+1. watsons studio with watsons openscale - DS/ML/AI task
+2. Microsoft azure ML - This is also a fully cloud-hosted offering supporting the complete development life cycle of all data science, machine learning, and AI tasks.
+3. H20 driverless AI (not SaaS or PaaS)
+
+For Data visualization.
+
+1. IBM offers it’s famous Cognos Business intelligence suite as cloud solution as well.
+2. IBM Data Refinery also offers data exploration and visualization functionality in Watson Studio.
+
+
+Note :
+
+ SPSS Modeler supports exporting models as Predictive Model Markup Language, or “PMML,” which can be read by numerous other commercial and open software packages. Watson Machine Learning can also be used to deploy a model and make it available to consumers using a REST interface.
+ 
+ 

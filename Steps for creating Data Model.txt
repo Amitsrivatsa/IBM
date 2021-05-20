@@ -1,0 +1,44 @@
+Course 1 - week 2
+
+establishing data mining goals
+1. setup goals for an exercise , questions that need to be ans
+2. going beyond questions that need to be ans, questioning the cost efficiency 
+3. determine in advance the expected level of accuracy and usefullness of the results obtained from data mining
+4. cost benifit trade off is crucial in determining goals and scope of DM exercise.
+5. level of accuracy also influences the cost.
+
+selecting data
+1. Output largely depends upon the level of data used
+2. 2 types of data are available
+	strctured data - readily available data - customer purchase demographic information given by retailers.
+	unstrctured data
+3. type of data, its size, frequency of collectiom have direct bearing on the cost of DM exercise.
+
+Processing data
+1. raw data is messy containing erroneus or irrelevant data. 
+2. in pre-processing stage identify irrelevant attributes of data and remove that from consideration.
+3. develop a formal method of dealing with missed data and determine if the data are missing randomly or systematically
+4. simple set of solutions would suffice if the data is missing randomly.
+5. if the data missing systematically you have to determine the impact of missing data on the results.
+6. for example - if whatever data is missing is included in your search parameters then the model becomes absolute.
+
+Transforming data
+1. transforming data essential to recude the number of attributes to explain data.
+2. to do this we require data reduction algorithms (principle component analysis algo) , can reduce the number of attributes preserving the significance of data.
+3. variables may need to be transfrmed to help with the data being analysed.
+4. transform data type of one value to another.
+
+storing data
+1. transformed data must be stored in a format that makes it conductive for data mining.
+2. Data must be stored in a format that gives unrestricted and immdetiate read/write previleges to data scientist.
+3. storing data should facilitate efficiency reading from and writing to database
+4. data safety and privacy key concerns for storing data.
+
+Mining data
+1. this step coveres data analysis methods including parametic and non-parametic methods and machine learning algos.
+2. multi-dimentional views of data using advanced graphing capabilities of data mining software are helpful in developing a preliminary understanding of the hidden trends of data.
+
+Evaluating mining results 
+1. Formal evaluation could include testing the predictive capabilities of models on observed data to see how effetive and efficient the algos have been in repoducing the data.
+2. Data mining and evaluating the results becomes an iterative process to improve analysis process.
+

@@ -1,0 +1,46 @@
+course 2 week 1
+
+Difference between open source and free software (freeware)
+
+1. freeware is often shared without including its source code, which is atypical to open source software or free software
+2. Both terms refer to essentially the same set of licenses and software
+
+other languages used for data analytics
+
+1. Scala, Java, C++, and Julia are the most traditional data science languages on this slideScala, Java, C++, and Julia are probably the most traditional data science languages on this slide.
+
+2. Java is a tried-and-true general-purpose object oriented programming language. It's been widely adopted in the enterprise space and is designed to be fast and scalable. Java applications are compiled to bytecode and run on the Java Virtual Machine, or "JVM.".
+	DS tools built with java - 
+		a. Weka - data mining
+		b. Java-ML - machine learning library
+		c. Apache MLlib - makes machine learning scalable
+		d. deeplearning4j - deep learning library
+		e. ApacheHadoop - big data
+
+3. Scala language was made to overcome short commings of Java
+
+4. Apache Spark -
+	a. built using spark.
+	b. spark is a fast general purpose cluster computing system
+	c. Provides APIs that makes parallel jobs easy to read and write and engine
+		that supports computation graphs.
+	d. faster than hadoop.
+	
+5. C++ -
+	a. imporves speed
+	b. enables system programming
+	c. provides control over software application
+	DS tools built with C++
+		a. MongoDB - NoSql DB
+		b. Caffe - deep learning algo built with c++
+
+6. JavaScript - general purpose language that extends beyond the browser with Node.js
+		TensorFlow.js makes machine learning and deep learning available in browser as well as Node.js
+		TensorFlow.js is adopted by open source lib such as 
+			a. brain.js
+			b. machinelearn.js
+			c. R-js - foundation of other projects to implement more powerful math based frameworks
+						like numpy and sic-py
+
+7.  Julia was designed at MIT for high-performance numerical analysis and computational science. 
+	It provides speedy development like Python or R, while producing programs that run as fast as C or Fortran programs
